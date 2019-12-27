@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch sock-merchant.exe",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "target/debug/sock-merchant.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "build",
+            "sourceFileMap": {
+                // Rust stable
+                "/rustc/73528e339aae0f17a15ffa49a8ac608f50c6cf14/src": "${env:USERPROFILE}\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\src\\rust\\src"
+            }
+        }
+    ]
+}
